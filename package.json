@@ -1,11 +1,8 @@
 {
-  "name": "ninja-game-backend",
+  "name": "ninjas-game-backend",
   "version": "1.0.0",
-  "description": "This is a game created in reactjs and nodejs",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muhire-Josue/ninja-game-backend.git"
-  },
+  "description": "game",
+  "main": "index.js",
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -46,10 +43,17 @@
     "db:migrate": "./node_modules/.bin/sequelize db:migrate",
     "db:migrate:undo:all": "./node_modules/.bin/sequelize db:migrate:undo:all"
   },
-  "author": "Muhire Josue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwajon/ninjas-game-backend.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ninjas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Muhire-Josue/ninja-game-backend/issues"
+    "url": "https://github.com/rwajon/ninjas-game-backend/issues"
   },
-  "homepage": "https://github.com/Muhire-Josue/ninja-game-backend#readme"
+  "homepage": "https://github.com/rwajon/ninjas-game-backend#readme"
 }

@@ -8,6 +8,7 @@ import session from 'express-session';
 import passport from 'passport';
 import socketIo from 'socket.io';
 import routes from './routes';
+import db from './models';
 import GamingRoomController from './controllers/GamingRoomController';
 
 const app = express();
