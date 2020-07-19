@@ -1,1 +1,1 @@
-# ninja-game-backend
+# ninjas-game-backend

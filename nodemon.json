@@ -1,5 +1,4 @@
 {
-    "watch": ["src/"],
-    "ignore": ["src/tests/"]
-  }
-  
+  "watch": ["src/"],
+  "ignore": ["src/tests/"]
+}

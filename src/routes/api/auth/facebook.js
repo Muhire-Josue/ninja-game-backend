@@ -1,6 +1,7 @@
 import express from 'express';
 import passport from '../../../middlewares/passport';
 import AuthPassportController from '../../../controllers/AuthPassportController';
+
 const router = express.Router();
 
 router.get('/', passport.authenticate('facebook', { scope: ['email'] }));
